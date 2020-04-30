@@ -2,7 +2,8 @@
 let make = () => {
   let url = ReasonReactRouter.useUrl();
   switch (url.path) {
-  | [] => <Todo />
+  | [] => <Home />
+  | ["todo"] => <Todo />
   | _ => <NotFound />
   };
 };
