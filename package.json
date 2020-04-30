@@ -1,0 +1,31 @@
+{
+  "name": "reason-cublood",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reason-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "bs-fetch": "^0.5.2",
+    "bs-platform": "^7.2.2",
+    "reason-react": "^0.7.1"
+  }
+}
