@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "autoprefixer": "^9.7.6",
+    "bs-axios": "^0.0.43",
+    "bs-let": "^0.1.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "reason-scripts": "1.0.0",

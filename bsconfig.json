@@ -1,10 +1,17 @@
 {
   "name": "reason-scripts",
-  "sources": ["src", "src/components"],
-  "bs-dependencies": ["reason-react", "@glennsl/bs-jest", "bs-fetch"],
+  "sources": [
+    "src", 
+    "src/components",
+    "src/api"
+  ],
+  "bs-dependencies": ["reason-react", "@glennsl/bs-jest", "bs-fetch", "bs-axios"],
   "reason": {
     "react-jsx": 3
   },
+  "ppx-flags": [
+    "bs-let/ppx"
+  ],
   "refmt": 3,
   "package-specs": {
     "module": "commonjs",
